@@ -40,6 +40,13 @@ jobs:
                   "type": "mrkdwn",
                   "text": "GitHub Action build result: ${{ job.status }}\n${{ github.event.pull_request.html_url || github.event.head_commit.url }}"
                 }
+              },
+              {
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": "Playwright Report: [View Playwright Report](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts/playwright-report/playwright-report/)"
+                }
               }
             ]
           }
