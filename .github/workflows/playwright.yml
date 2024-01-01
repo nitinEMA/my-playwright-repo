@@ -45,7 +45,7 @@ jobs:
                 "type": "section",
                 "text": {
                   "type": "mrkdwn",
-                  "text": "Playwright Report: [View Playwright Report](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts/playwright-report/playwright-report/)"
+                  "text": "Playwright Report: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
                 }
               }
             ]
