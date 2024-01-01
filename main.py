@@ -31,4 +31,5 @@ def main():
     plt.show()
 
 if __name__ == "__main__":
+    print("Running main...")
     main()
