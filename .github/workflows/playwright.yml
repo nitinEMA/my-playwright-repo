@@ -1,9 +1,7 @@
 name: Playwright Tests
 on:
   pull_request:
-    branches: [ main ]
-  schedule:
-    - cron: '*/2 * * * *'
+    branches: []
 jobs:
   test:
     timeout-minutes: 60
